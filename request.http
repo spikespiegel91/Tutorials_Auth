@@ -1,0 +1,14 @@
+
+
+
+#GET  http://127.0.0.1:5000/unprotected HTTP/1.1
+
+
+
+GET  http://127.0.0.1:5000/login HTTP/1.1
+content-type: application/auth
+{
+    "username": "admin",
+    "password": "123"
+}
+
